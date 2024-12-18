@@ -3,55 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>Hayden Phillips | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/three@0.138.0/build/three.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-        <title> Work in Progress</title>
     <!-- Hero Section -->
-    <section id="hero">
-        
-        </div>
+    <header id="hero">
         <div class="hero-content">
-            <h1>Hi, I'm Hayden Phillips</h1>
-            <p>A passionate Software Devlopor who brings ideas to life.</p>
+            <h1>Hi, I'm <span>Hayden Phillips</span></h1>
+            <p>A passionate software developer bringing ideas to life with code.</p>
             <a href="#portfolio" class="cta-button">View My Work</a>
         </div>
-    </section>
+    </header>
 
     <!-- About Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <div class="timeline">
-            <div class="timeline-item">Started in 2021 - </div>
-            <div class="timeline-item">Developed expertise in Html,Css,Js,Java,C+,</div>
-            
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm a dedicated and innovative software developer with a focus on creating clean, efficient, and user-friendly applications. My journey began in 2021, and since then, I've honed my skills in several programming languages and frameworks.
+            </p>
+            <div class="skills">
+                <h3>Skills:</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Java, C++</li>
+                    <li>Version Control (Git & GitHub)</li>
+                    <li>Responsive Design & Accessibility</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <!-- Portfolio Section -->
     <section id="portfolio">
-        <h2>My Work</h2>
-        <div class="portfolio-grid">
-            <div class="portfolio-item" data-description="Project 1 Description">Project 1</div>
-            <div class="portfolio-item" data-description="Project 2 Description">Project 2</div>
-            <div class="portfolio-item" data-description="Project 3 Description">Project 3</div>
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>A brief description of Project 1 goes here.</p>
+                    <a href="https://example.com" class="project-link" target="_blank">View Project</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>A brief description of Project 2 goes here.</p>
+                    <a href="https://example.com" class="project-link" target="_blank">View Project</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>A brief description of Project 3 goes here.</p>
+                    <a href="https://example.com" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Me</h2>
-        <a href="mailto:your-email@example.com">Email Me</a>
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Have a project in mind? Let's collaborate!</p>
+            <a href="mailto:hayden.phillips@example.com" class="cta-button">Email Me</a>
+            <ul class="social-icons">
+                <li><a href="https://github.com/your-profile" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <ul class="social-icons">
-            <li><a href="https://github.com/your-profile">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/your-profile">LinkedIn</a></li>
-        </ul>
+        <div class="container">
+            <p>&copy; 2024 Hayden Phillips. All Rights Reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
